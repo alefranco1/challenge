@@ -3,23 +3,22 @@
     border: 1px;
     border-style: solid; 
     border-color: black;
-    height: 50px;
+    height: 15%;
 }
 .search {
-    margin-top: 20px;
+    margin-top: 45px;
 }
 .listing{
     border: 1px;
     border-style: solid; 
     border-color: black;
-    height: 500px;
+    height: 85%;
 }
-.list{
-    border: 1px;
-    border-style: solid; 
-    border-color: black;
-    height: 100px;
 
+table, th{
+    width: 100%;
+    border: 1px solid black;
+    height: 86px;
 }
 .details{
     padding-left: 10px;
@@ -30,7 +29,7 @@
     border-color: black;
     justify-content: space-between;
     align-items: center;
-    height: 20px;
+    height: 8%;
 }
 #pages{
     border: 1px;
@@ -50,7 +49,7 @@
     border: 1px;
     border-style: solid; 
     border-color: black;
-    width: 560px;
-    height:554px;
+    width: 550px;
+    height:600px;
     margin: 0 auto; 
 }
