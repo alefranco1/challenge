@@ -5,7 +5,7 @@
     border-color: black;
     height: 15%;
 }
-.search {
+#searchbar {
     margin-top: 45px;
 }
 .listing{
@@ -15,8 +15,18 @@
     height: 85%;
 }
 
-table, th{
+table,td{
     width: 100%;
+    border: 1px solid black;
+    height: 86px;
+}
+.first-cell{
+    width: 30%;
+    border: 1px solid black;
+    height: 86px;
+}
+.second-cell{
+    width: 70%;
     border: 1px solid black;
     height: 86px;
 }

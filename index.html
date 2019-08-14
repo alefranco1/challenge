@@ -10,22 +10,43 @@
   <div id="app">
       <div id="search">
           <!-- Consider using a Form -->
-          <input class="search" type="text" placeholder="Search query...">  
-          <button>Search</button>
+          <input id="searchbar" type="text" placeholder="Search query..." name="game">  
+          <button onClick= "onSearch(listFive)">Search</button>
       </div>
       <div class="listing">
           <div class="details">
-            <span id="quantity"></span>
-            <span id="pages"></span>
+            <span id="quantity">
+                <button onClick= "onPrevious()">Previous</button>
+            </span>
+            <span id="pages">
+              <button onClick= "onNext()">Next</button>
+            </span>
           </div>
           <table>
-              <tr><th></th></tr>
-              <tr><th></th></tr>
-              <tr><th></th></tr>
-              <tr><th></th></tr>
-              <tr><th></th></tr>
+              <tr>
+                <td id="img0" class="first-cell"></td>
+                <td id="0"  class="second-cell"></td>
+              </tr>
+              <tr>
+                <td id="img1" class="first-cell"></td>
+                <td id="1" class="second-cell"></td>
+              <tr>
+                <td id="img2" class="first-cell"></td>
+                <td id="2" class="second-cell"></td>
+              </tr>
+              <tr>
+                <td id="img3" class="first-cell"></td>
+                <td id="3" class="second-cell"></td>
+              </tr>
+              <tr>
+                <td id="img4" class="first-cell"></td>
+                <td id="4" class="second-cell"></td>
+              </tr>
+
           </table>
       </div>
   </div>
+  <script src="./config.js"></script>
+  <script src="./webAPI.js"></script>
 </body>
 </html>
